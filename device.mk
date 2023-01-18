@@ -10,6 +10,9 @@ MI710_KEYMASTER_VERSION := 4.0
 # Inherit from sdm710-common
 $(call inherit-product, device/xiaomi/sdm710-common/sdm710.mk)
 
+# Shipping API Level
+PRODUCT_SHIPPING_API_LEVEL := 28
+
 # Vendor blobs
 ifneq ($(wildcard vendor/xiaomi/vela/proprietary/),)
 PRODUCT_COPY_FILES += \
