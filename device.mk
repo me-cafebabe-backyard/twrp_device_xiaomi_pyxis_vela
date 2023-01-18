@@ -5,8 +5,7 @@
 #
 
 # Crypto
-MITHORIUM_INCLUDE_CRYPTO_FDE := true
-MITHORIUM_LEGACY_CRYPTO := true
+MI710_KEYMASTER_VERSION := 4.0
 
 # Inherit from sdm710-common
 $(call inherit-product, device/xiaomi/sdm710-common/sdm710.mk)
