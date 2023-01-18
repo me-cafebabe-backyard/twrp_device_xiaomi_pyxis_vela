@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2022 Team Win Recovery Project
+# Copyright (C) 2023 Team Win Recovery Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_uter.mk
+    $(LOCAL_DIR)/twrp_vela.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_uter-user \
-    twrp_uter-userdebug \
-    twrp_uter-eng
+    twrp_vela-user \
+    twrp_vela-userdebug \
+    twrp_vela-eng
