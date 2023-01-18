@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from common mithorium-common
-include device/xiaomi/mithorium-common/BoardConfigCommon.mk
+# Inherit from common sdm710-common
+include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/vela
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-mithorium/vela/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-sdm710/vela/Image.gz-dtb
 
 # Partitions
 BOARD_USES_METADATA_PARTITION := true

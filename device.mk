@@ -8,8 +8,8 @@
 MITHORIUM_INCLUDE_CRYPTO_FDE := true
 MITHORIUM_LEGACY_CRYPTO := true
 
-# Inherit from mithorium-common
-$(call inherit-product, device/xiaomi/mithorium-common/mithorium.mk)
+# Inherit from sdm710-common
+$(call inherit-product, device/xiaomi/sdm710-common/sdm710.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
