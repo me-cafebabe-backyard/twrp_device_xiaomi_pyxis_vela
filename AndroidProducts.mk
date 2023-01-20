@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_vela.mk
+    $(LOCAL_DIR)/twrp_argo_navis.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_vela-user \
-    twrp_vela-userdebug \
-    twrp_vela-eng
+    twrp_argo_navis-user \
+    twrp_argo_navis-userdebug \
+    twrp_argo_navis-eng

@@ -5,16 +5,16 @@
 #
 
 # Kernel
-TARGET_PREBUILT_DTB := device/xiaomi/kernel-sdm710/vela/dtb.img
+TARGET_PREBUILT_DTB := device/xiaomi/kernel-sdm710/argo_navis/dtb.img
 
 # Inherit from common sdm710-common
 include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/vela
+DEVICE_PATH := device/xiaomi/argo_navis
 
 # Kernel
-BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/kernel-sdm710/vela/dtbo.img
-TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-sdm710/vela/Image
+BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/kernel-sdm710/argo_navis/dtbo.img
+TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-sdm710/argo_navis/Image
 
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)

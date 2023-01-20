@@ -14,9 +14,9 @@ $(call inherit-product, device/xiaomi/sdm710-common/sdm710.mk)
 PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Vendor blobs
-ifneq ($(wildcard vendor/xiaomi/vela/proprietary/),)
+ifneq ($(wildcard vendor/xiaomi/argo_navis/proprietary/),)
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/xiaomi/vela/proprietary/vendor/,$(TARGET_COPY_OUT_RECOVERY)/root/system/)
+    $(call find-copy-subdir-files,*,vendor/xiaomi/argo_navis/proprietary/vendor/,$(TARGET_COPY_OUT_RECOVERY)/root/system/)
 endif
 
 # Soong namespaces
