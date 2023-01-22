@@ -11,6 +11,7 @@ TARGET_PREBUILT_DTB := device/xiaomi/kernel-sdm710/pyxis_vela/dtb.img
 include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/pyxis_vela
+USES_DEVICE_XIAOMI_PYXIS_VELA := true
 
 # Kernel
 BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/kernel-sdm710/pyxis_vela/dtbo.img

@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_RELEASE_NAME := pyxis_vela
+PRODUCT_RELEASE_NAME := pyxis_vela_mi710
 
 # Fstab
-MI710_FSTAB_VARIANT := stock
+MI710_FSTAB_VARIANT := xiaomi-sdm710-devs
 
 # Inherit from pyxis_vela device
 $(call inherit-product, device/xiaomi/pyxis_vela/device.mk)

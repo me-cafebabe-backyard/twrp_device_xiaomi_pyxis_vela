@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),pyxis_vela)
+ifeq ($(USES_DEVICE_XIAOMI_PYXIS_VELA),true)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif
